@@ -1,0 +1,84 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Cheese Burger",
+      "category": "Appetizers",
+      "image": "/images/cheeseburger.jpg",
+      "description": "Juicy beef patty with melted cheese, lettuce, tomato, and onions on a toasted bun.",
+      "price": 650
+    },
+    {
+      "id": 2,
+      "name": "Fried Chicken",
+      "category": "Main Dishes",
+      "image": "/images/friedchicken.jpg",
+      "description": "Crispy golden fried chicken served with fresh garden salad and spicy dip.",
+      "price": 850
+    },
+    {
+      "id": 3,
+      "name": "Orange Juice",
+      "category": "Drinks",
+      "image": "/images/orangejuice.jpg",
+      "description": "Freshly squeezed orange juice packed with vitamin C.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Veggie Pizza",
+      "category": "Main Dishes",
+      "image": "/images/veggiepizza.jpg",
+      "description": "Crispy pizza base topped with mozzarella, bell peppers, mushrooms, and olives.",
+      "price": 950
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Milkshake",
+      "category": "Drinks",
+      "image": "/images/chocolatemilkshake.jpg",
+      "description": "Rich and creamy chocolate milkshake topped with whipped cream.",
+      "price": 400
+    },
+    {
+      "id": 6,
+      "name": "Caesar Salad",
+      "category": "Snacks",
+      "image": "/images/caesarsalad.jpg",
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan cheese.",
+      "price": 550
+    },
+    {
+      "id": 7,
+      "name": "Grilled Salmon",
+      "category": "Main Dishes",
+      "image": "/images/grilledsalmon.jpg",
+      "description": "Perfectly grilled salmon fillet with lemon butter sauce and vegetables.",
+      "price": 1200
+    },
+    {
+      "id": 8,
+      "name": "French Fries",
+      "category": "Snacks",
+      "image": "/images/frenchfries.jpg",
+      "description": "Crispy golden fries served with ketchup and mayo dip.",
+      "price": 300
+    },
+    {
+      "id": 9,
+      "name": "Pancakes",
+      "category": "Appetizers",
+      "image": "/images/pancakes.jpg",
+      "description": "Fluffy pancakes served with maple syrup and butter.",
+      "price": 500
+    },
+    {
+      "id": 10,
+      "name": "Mango Smoothie",
+      "category": "Drinks",
+      "image": "/images/mangosmoothie.jpg",
+      "description": "Fresh mango smoothie blended with yogurt and honey.",
+      "price": 350
+    }
+  ]
+}
