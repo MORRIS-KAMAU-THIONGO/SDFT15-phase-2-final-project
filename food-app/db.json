@@ -1,0 +1,51 @@
+{
+  "mainDishes": [
+    { "id": 1, "name": "Grilled Chicken", "price": 750, "image": "/images/chicken.jpg" },
+    { "id": 2, "name": "Beef Steak", "price": 950, "image": "/images/steak.jpg" },
+    { "id": 3, "name": "Pilau Rice", "price": 600, "image": "/images/pilau.jpg" },
+    { "id": 4, "name": "Fish Fillet", "price": 850, "image": "/images/fish.jpg" },
+    { "id": 5, "name": "Lamb Chops", "price": 1050, "image": "/images/lamb.jpg" },
+    { "id": 6, "name": "Fried Tilapia", "price": 800, "image": "/images/tilapia.jpg" },
+    { "id": 7, "name": "Ugali & Sukuma", "price": 450, "image": "/images/ugali.jpg" },
+    { "id": 8, "name": "Nyama Choma", "price": 900, "image": "/images/nyama.jpg" },
+    { "id": 9, "name": "Pasta Bolognese", "price": 700, "image": "/images/pasta.jpg" },
+    { "id": 10, "name": "Chicken Curry", "price": 950, "image": "/images/curry.jpg" }
+  ],
+  "appetizers": [
+    { "id": 1, "name": "Spring Rolls", "price": 300, "image": "/images/spring.jpg" },
+    { "id": 2, "name": "Garlic Bread", "price": 250, "image": "/images/garlic.jpg" },
+    { "id": 3, "name": "Bruschetta", "price": 280, "image": "/images/bruschetta.jpg" },
+    { "id": 4, "name": "Mozzarella Sticks", "price": 350, "image": "/images/mozza.jpg" },
+    { "id": 5, "name": "Mini Samosas", "price": 200, "image": "/images/samosa.jpg" },
+    { "id": 6, "name": "Meatballs", "price": 400, "image": "/images/meatballs.jpg" },
+    { "id": 7, "name": "Potato Wedges", "price": 300, "image": "/images/wedges.jpg" },
+    { "id": 8, "name": "Onion Rings", "price": 250, "image": "/images/onion.jpg" },
+    { "id": 9, "name": "Stuffed Peppers", "price": 450, "image": "/images/peppers.jpg" },
+    { "id": 10, "name": "Mini Tacos", "price": 350, "image": "/images/taco.jpg" }
+  ],
+  "drinks": [
+    { "id": 1, "name": "Coca-Cola", "price": 150, "image": "/images/coke.jpg" },
+    { "id": 2, "name": "Sprite", "price": 150, "image": "/images/sprite.jpg" },
+    { "id": 3, "name": "Fanta Orange", "price": 150, "image": "/images/fanta.jpg" },
+    { "id": 4, "name": "Fresh Juice", "price": 200, "image": "/images/juice.jpg" },
+    { "id": 5, "name": "Milkshake", "price": 300, "image": "/images/milkshake.jpg" },
+    { "id": 6, "name": "Lemonade", "price": 200, "image": "/images/lemonade.jpg" },
+    { "id": 7, "name": "Water", "price": 100, "image": "/images/water.jpg" },
+    { "id": 8, "name": "Energy Drink", "price": 250, "image": "/images/energy.jpg" },
+    { "id": 9, "name": "Iced Coffee", "price": 300, "image": "/images/coffee.jpg" },
+    { "id": 10, "name": "Smoothie", "price": 350, "image": "/images/smoothie.jpg" }
+  ],
+  "snacks": [
+    { "id": 1, "name": "Chips", "price": 200, "image": "/images/chips.jpg" },
+    { "id": 2, "name": "Hot Dog", "price": 350, "image": "/images/hotdog.jpg" },
+    { "id": 3, "name": "Popcorn", "price": 150, "image": "/images/popcorn.jpg" },
+    { "id": 4, "name": "Mandazi", "price": 100, "image": "/images/mandazi.jpg" },
+    { "id": 5, "name": "Sausage", "price": 200, "image": "/images/sausage.jpg" },
+    { "id": 6, "name": "Corn Dog", "price": 250, "image": "/images/corndog.jpg" },
+    { "id": 7, "name": "Doughnut", "price": 200, "image": "/images/doughnut.jpg" },
+    { "id": 8, "name": "Cupcake", "price": 250, "image": "/images/cupcake.jpg" },
+    { "id": 9, "name": "Nachos", "price": 300, "image": "/images/nachos.jpg" },
+    { "id": 10, "name": "Biscuit Pack", "price": 180, "image": "/images/biscuit.jpg" }
+  ],
+  "cart": []
+}
