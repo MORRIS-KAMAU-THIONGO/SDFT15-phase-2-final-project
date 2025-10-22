@@ -1,6 +1,6 @@
 {
   "foods": [
-    // main dishes (10)
+    
     {
       "id": 1,
       "name": "Grilled Salmon",
@@ -82,7 +82,7 @@
       "price": 800
     },
 
-    // appetizers (10)
+    
     {
       "id": 11,
       "name": "Cheese Burger Bites",
@@ -164,7 +164,7 @@
       "price": 400
     },
 
-    // drinks (10)
+    
     {
       "id": 21,
       "name": "Orange Juice",
@@ -246,7 +246,7 @@
       "price": 200
     },
 
-    // snacks (10)
+    
     {
       "id": 31,
       "name": "French Fries",
@@ -328,7 +328,7 @@
       "price": 250
     }
   ],
+
   
-  //add to cart section
   "cart": []
 }
