@@ -1,55 +1,8 @@
 {
   "foods": [
+    // main dishes (10)
     {
       "id": 1,
-      "name": "Cheese Burger",
-      "category": "Appetizers",
-      "image": "/images/cheeseburger.jpg",
-      "description": "Juicy beef patty with melted cheese, lettuce, tomato, and onions on a toasted bun.",
-      "price": 650
-    },
-    {
-      "id": 2,
-      "name": "Fried Chicken",
-      "category": "Main Dishes",
-      "image": "/images/friedchicken.jpg",
-      "description": "Crispy golden fried chicken served with fresh garden salad and spicy dip.",
-      "price": 850
-    },
-    {
-      "id": 3,
-      "name": "Orange Juice",
-      "category": "Drinks",
-      "image": "/images/orangejuice.jpg",
-      "description": "Freshly squeezed orange juice packed with vitamin C.",
-      "price": 300
-    },
-    {
-      "id": 4,
-      "name": "Veggie Pizza",
-      "category": "Main Dishes",
-      "image": "/images/veggiepizza.jpg",
-      "description": "Crispy pizza base topped with mozzarella, bell peppers, mushrooms, and olives.",
-      "price": 950
-    },
-    {
-      "id": 5,
-      "name": "Chocolate Milkshake",
-      "category": "Drinks",
-      "image": "/images/chocolatemilkshake.jpg",
-      "description": "Rich and creamy chocolate milkshake topped with whipped cream.",
-      "price": 400
-    },
-    {
-      "id": 6,
-      "name": "Caesar Salad",
-      "category": "Snacks",
-      "image": "/images/caesarsalad.jpg",
-      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan cheese.",
-      "price": 550
-    },
-    {
-      "id": 7,
       "name": "Grilled Salmon",
       "category": "Main Dishes",
       "image": "/images/grilledsalmon.jpg",
@@ -57,28 +10,325 @@
       "price": 1200
     },
     {
+      "id": 2,
+      "name": "Fried Chicken",
+      "category": "Main Dishes",
+      "image": "/images/friedchicken.jpg",
+      "description": "Crispy golden fried chicken served with fries and coleslaw.",
+      "price": 850
+    },
+    {
+      "id": 3,
+      "name": "Beef Steak",
+      "category": "Main Dishes",
+      "image": "/images/beefsteak.jpg",
+      "description": "Juicy grilled steak served with mashed potatoes and gravy.",
+      "price": 1300
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti Bolognese",
+      "category": "Main Dishes",
+      "image": "/images/spaghetti.jpg",
+      "description": "Classic Italian pasta with minced beef sauce and parmesan cheese.",
+      "price": 900
+    },
+    {
+      "id": 5,
+      "name": "BBQ Ribs",
+      "category": "Main Dishes",
+      "image": "/images/bbqribs.jpg",
+      "description": "Tender pork ribs glazed with smoky barbecue sauce.",
+      "price": 1100
+    },
+    {
+      "id": 6,
+      "name": "Vegetable Stir Fry",
+      "category": "Main Dishes",
+      "image": "/images/vegetablestirfry.jpg",
+      "description": "Colorful veggies sautéed in soy garlic sauce served with rice.",
+      "price": 750
+    },
+    {
+      "id": 7,
+      "name": "Grilled Tilapia",
+      "category": "Main Dishes",
+      "image": "/images/tilapia.jpg",
+      "description": "Whole tilapia grilled with herbs, served with ugali and kachumbari.",
+      "price": 950
+    },
+    {
       "id": 8,
-      "name": "French Fries",
-      "category": "Snacks",
-      "image": "/images/frenchfries.jpg",
-      "description": "Crispy golden fries served with ketchup and mayo dip.",
-      "price": 300
+      "name": "Chicken Curry",
+      "category": "Main Dishes",
+      "image": "/images/chickencurry.jpg",
+      "description": "Tender chicken cooked in spiced curry sauce with coconut milk.",
+      "price": 1000
     },
     {
       "id": 9,
-      "name": "Pancakes",
-      "category": "Appetizers",
-      "image": "/images/pancakes.jpg",
-      "description": "Fluffy pancakes served with maple syrup and butter.",
-      "price": 500
+      "name": "Lamb Chops",
+      "category": "Main Dishes",
+      "image": "/images/lambchops.jpg",
+      "description": "Grilled lamb chops served with rosemary sauce and vegetables.",
+      "price": 1400
     },
     {
       "id": 10,
+      "name": "Beef Pilau",
+      "category": "Main Dishes",
+      "image": "/images/pilau.jpg",
+      "description": "Kenyan-style spiced rice cooked with tender beef chunks.",
+      "price": 800
+    },
+
+    // appetizers (10)
+    {
+      "id": 11,
+      "name": "Cheese Burger Bites",
+      "category": "Appetizers",
+      "image": "/images/cheeseburgerbites.jpg",
+      "description": "Mini burger bites topped with melted cheese and onions.",
+      "price": 600
+    },
+    {
+      "id": 12,
+      "name": "Chicken Wings",
+      "category": "Appetizers",
+      "image": "/images/chickenwings.jpg",
+      "description": "Spicy glazed wings served with a creamy ranch dip.",
+      "price": 550
+    },
+    {
+      "id": 13,
+      "name": "Pancakes",
+      "category": "Appetizers",
+      "image": "/images/pancakes.jpg",
+      "description": "Fluffy pancakes drizzled with maple syrup and butter.",
+      "price": 500
+    },
+    {
+      "id": 14,
+      "name": "Garlic Bread",
+      "category": "Appetizers",
+      "image": "/images/garlicbread.jpg",
+      "description": "Warm toasted garlic bread sprinkled with herbs and cheese.",
+      "price": 250
+    },
+    {
+      "id": 15,
+      "name": "Stuffed Mushrooms",
+      "category": "Appetizers",
+      "image": "/images/stuffedmushrooms.jpg",
+      "description": "Mushrooms filled with cheese, herbs, and breadcrumbs.",
+      "price": 400
+    },
+    {
+      "id": 16,
+      "name": "Mini Tacos",
+      "category": "Appetizers",
+      "image": "/images/minitacos.jpg",
+      "description": "Small crunchy tacos filled with minced meat and salsa.",
+      "price": 550
+    },
+    {
+      "id": 17,
+      "name": "Shrimp Cocktail",
+      "category": "Appetizers",
+      "image": "/images/shrimpcocktail.jpg",
+      "description": "Chilled shrimp served with zesty cocktail sauce.",
+      "price": 700
+    },
+    {
+      "id": 18,
+      "name": "Mozzarella Sticks",
+      "category": "Appetizers",
+      "image": "/images/mozzarellasticks.jpg",
+      "description": "Crispy cheese sticks served with marinara sauce.",
+      "price": 450
+    },
+    {
+      "id": 19,
+      "name": "Caprese Salad",
+      "category": "Appetizers",
+      "image": "/images/capresesalad.jpg",
+      "description": "Fresh mozzarella, tomatoes, and basil with balsamic glaze.",
+      "price": 500
+    },
+    {
+      "id": 20,
+      "name": "Mini Quesadillas",
+      "category": "Appetizers",
+      "image": "/images/quesadillas.jpg",
+      "description": "Mini tortillas filled with cheese and grilled to perfection.",
+      "price": 400
+    },
+
+    // drinks (10)
+    {
+      "id": 21,
+      "name": "Orange Juice",
+      "category": "Drinks",
+      "image": "/images/orangejuice.jpg",
+      "description": "Freshly squeezed orange juice packed with vitamin C.",
+      "price": 300
+    },
+    {
+      "id": 22,
       "name": "Mango Smoothie",
       "category": "Drinks",
       "image": "/images/mangosmoothie.jpg",
-      "description": "Fresh mango smoothie blended with yogurt and honey.",
+      "description": "Creamy mango smoothie blended with yogurt and honey.",
       "price": 350
+    },
+    {
+      "id": 23,
+      "name": "Chocolate Milkshake",
+      "category": "Drinks",
+      "image": "/images/chocolatemilkshake.jpg",
+      "description": "Rich and creamy chocolate milkshake topped with whipped cream.",
+      "price": 400
+    },
+    {
+      "id": 24,
+      "name": "Iced Coffee",
+      "category": "Drinks",
+      "image": "/images/icedcoffee.jpg",
+      "description": "Cold brewed coffee served over ice with milk.",
+      "price": 450
+    },
+    {
+      "id": 25,
+      "name": "Lemonade",
+      "category": "Drinks",
+      "image": "/images/lemonade.jpg",
+      "description": "Refreshing lemonade made with fresh lemons and mint.",
+      "price": 250
+    },
+    {
+      "id": 26,
+      "name": "Coca Cola",
+      "category": "Drinks",
+      "image": "/images/cocacola.jpg",
+      "description": "Classic fizzy cola drink, ice-cold.",
+      "price": 200
+    },
+    {
+      "id": 27,
+      "name": "Watermelon Juice",
+      "category": "Drinks",
+      "image": "/images/watermelonjuice.jpg",
+      "description": "Cool and sweet watermelon juice, perfect for hot days.",
+      "price": 300
+    },
+    {
+      "id": 28,
+      "name": "Hot Chocolate",
+      "category": "Drinks",
+      "image": "/images/hotchocolate.jpg",
+      "description": "Steamy hot cocoa topped with marshmallows.",
+      "price": 350
+    },
+    {
+      "id": 29,
+      "name": "Strawberry Shake",
+      "category": "Drinks",
+      "image": "/images/strawberryshake.jpg",
+      "description": "Creamy strawberry shake with real fruit pieces.",
+      "price": 380
+    },
+    {
+      "id": 30,
+      "name": "Green Tea",
+      "category": "Drinks",
+      "image": "/images/greentea.jpg",
+      "description": "Organic green tea served warm or iced.",
+      "price": 200
+    },
+
+    // snacks (10)
+    {
+      "id": 31,
+      "name": "French Fries",
+      "category": "Snacks",
+      "image": "/images/frenchfries.jpg",
+      "description": "Crispy golden fries served with ketchup and mayo.",
+      "price": 300
+    },
+    {
+      "id": 32,
+      "name": "Onion Rings",
+      "category": "Snacks",
+      "image": "/images/onionrings.jpg",
+      "description": "Crispy onion rings with tangy dipping sauce.",
+      "price": 350
+    },
+    {
+      "id": 33,
+      "name": "Samosas",
+      "category": "Snacks",
+      "image": "/images/samosas.jpg",
+      "description": "Golden triangles filled with spiced potatoes and peas.",
+      "price": 150
+    },
+    {
+      "id": 34,
+      "name": "Spring Rolls",
+      "category": "Snacks",
+      "image": "/images/springrolls.jpg",
+      "description": "Vegetable rolls deep-fried and served with sweet chili dip.",
+      "price": 250
+    },
+    {
+      "id": 35,
+      "name": "Popcorn Chicken",
+      "category": "Snacks",
+      "image": "/images/popcornchicken.jpg",
+      "description": "Small crispy chicken bites served with sauce.",
+      "price": 400
+    },
+    {
+      "id": 36,
+      "name": "Nachos",
+      "category": "Snacks",
+      "image": "/images/nachos.jpg",
+      "description": "Crispy nachos loaded with cheese and salsa.",
+      "price": 500
+    },
+    {
+      "id": 37,
+      "name": "Cheese Balls",
+      "category": "Snacks",
+      "image": "/images/cheeseballs.jpg",
+      "description": "Crispy on the outside, cheesy on the inside snack balls.",
+      "price": 350
+    },
+    {
+      "id": 38,
+      "name": "Potato Wedges",
+      "category": "Snacks",
+      "image": "/images/potatowedges.jpg",
+      "description": "Thick potato wedges seasoned with herbs and paprika.",
+      "price": 300
+    },
+    {
+      "id": 39,
+      "name": "Mini Sandwiches",
+      "category": "Snacks",
+      "image": "/images/minisandwiches.jpg",
+      "description": "Mini sandwiches with chicken, lettuce, and cheese.",
+      "price": 400
+    },
+    {
+      "id": 40,
+      "name": "Veggie Chips",
+      "category": "Snacks",
+      "image": "/images/veggiechips.jpg",
+      "description": "Crispy chips made from sweet potatoes and beets.",
+      "price": 250
     }
-  ]
+  ],
+  
+  //add to cart section
+  "cart": []
 }
