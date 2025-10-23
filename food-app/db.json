@@ -1,244 +1,51 @@
 {
-  "foods": [
-    {
-      "id": 1,
-      "name": "Grilled Chicken",
-      "price": 12.99,
-      "category": "main"
-    },
-    {
-      "id": 2,
-      "name": "Beef Steak",
-      "price": 18.99,
-      "category": "main"
-    },
-    {
-      "id": 3,
-      "name": "Salmon Fillet",
-      "price": 15.99,
-      "category": "main"
-    },
-    {
-      "id": 4,
-      "name": "Vegetable Stir Fry",
-      "price": 10.99,
-      "category": "main"
-    },
-    {
-      "id": 5,
-      "name": "Pasta Carbonara",
-      "price": 13.99,
-      "category": "main"
-    },
-    {
-      "id": 6,
-      "name": "Lamb Chops",
-      "price": 19.99,
-      "category": "main"
-    },
-    {
-      "id": 7,
-      "name": "Shrimp Scampi",
-      "price": 16.99,
-      "category": "main"
-    },
-    {
-      "id": 8,
-      "name": "Chicken Curry",
-      "price": 14.99,
-      "category": "main"
-    },
-    {
-      "id": 9,
-      "name": "Beef Tacos",
-      "price": 11.99,
-      "category": "main"
-    },
-    {
-      "id": 10,
-      "name": "Vegetarian Pizza",
-      "price": 12.99,
-      "category": "main"
-    },
-    {
-      "id": 11,
-      "name": "Caesar Salad",
-      "price": 8.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 12,
-      "name": "Mozzarella Sticks",
-      "price": 7.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 13,
-      "name": "Buffalo Wings",
-      "price": 9.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 14,
-      "name": "Nachos",
-      "price": 10.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 15,
-      "name": "Bruschetta",
-      "price": 6.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 16,
-      "name": "Calamari",
-      "price": 11.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 17,
-      "name": "Spinach Dip",
-      "price": 8.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 18,
-      "name": "Chicken Tenders",
-      "price": 9.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 19,
-      "name": "Onion Rings",
-      "price": 7.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 20,
-      "name": "Garlic Bread",
-      "price": 5.99,
-      "category": "appetizer"
-    },
-    {
-      "id": 21,
-      "name": "Coca Cola",
-      "price": 2.99,
-      "category": "drink"
-    },
-    {
-      "id": 22,
-      "name": "Orange Juice",
-      "price": 3.99,
-      "category": "drink"
-    },
-    {
-      "id": 23,
-      "name": "Iced Tea",
-      "price": 2.49,
-      "category": "drink"
-    },
-    {
-      "id": 24,
-      "name": "Coffee",
-      "price": 2.99,
-      "category": "drink"
-    },
-    {
-      "id": 25,
-      "name": "Lemonade",
-      "price": 3.49,
-      "category": "drink"
-    },
-    {
-      "id": 26,
-      "name": "Beer",
-      "price": 4.99,
-      "category": "drink"
-    },
-    {
-      "id": 27,
-      "name": "Wine",
-      "price": 6.99,
-      "category": "drink"
-    },
-    {
-      "id": 28,
-      "name": "Smoothie",
-      "price": 4.99,
-      "category": "drink"
-    },
-    {
-      "id": 29,
-      "name": "Milkshake",
-      "price": 4.49,
-      "category": "drink"
-    },
-    {
-      "id": 30,
-      "name": "Water",
-      "price": 1.99,
-      "category": "drink"
-    },
-    {
-      "id": 31,
-      "name": "French Fries",
-      "price": 4.99,
-      "category": "snack"
-    },
-    {
-      "id": 32,
-      "name": "Popcorn",
-      "price": 3.99,
-      "category": "snack"
-    },
-    {
-      "id": 33,
-      "name": "Chips",
-      "price": 2.99,
-      "category": "snack"
-    },
-    {
-      "id": 34,
-      "name": "Cookies",
-      "price": 3.49,
-      "category": "snack"
-    },
-    {
-      "id": 35,
-      "name": "Candy Bar",
-      "price": 1.99,
-      "category": "snack"
-    },
-    {
-      "id": 36,
-      "name": "Trail Mix",
-      "price": 4.99,
-      "category": "snack"
-    },
-    {
-      "id": 37,
-      "name": "Nuts",
-      "price": 5.99,
-      "category": "snack"
-    },
-    {
-      "id": 38,
-      "name": "Granola Bar",
-      "price": 2.49,
-      "category": "snack"
-    },
-    {
-      "id": 39,
-      "name": "Pretzels",
-      "price": 3.99,
-      "category": "snack"
-    },
-    {
-      "id": 40,
-      "name": "Ice Cream",
-      "price": 4.49,
-      "category": "snack"
-    }
-  ]
+  "mainDishes": [
+    { "id": 1, "name": "Grilled Chicken", "price": 1200, "image": "https://i.imgur.com/ZF3YxXy.jpg" },
+    { "id": 2, "name": "Beef Steak", "price": 1500, "image": "https://i.imgur.com/0umadnY.jpg" },
+    { "id": 3, "name": "Fish Fillet", "price": 1100, "image": "https://i.imgur.com/rqvLd3X.jpg" },
+    { "id": 4, "name": "Spaghetti Bolognese", "price": 1000, "image": "https://i.imgur.com/BKnhy9B.jpg" },
+    { "id": 5, "name": "Vegetable Curry", "price": 900, "image": "https://i.imgur.com/XT3xEvr.jpg" },
+    { "id": 6, "name": "Fried Rice", "price": 800, "image": "https://i.imgur.com/4OZclYd.jpg" },
+    { "id": 7, "name": "Roast Lamb", "price": 1600, "image": "https://i.imgur.com/9mS0yKc.jpg" },
+    { "id": 8, "name": "Chicken Alfredo", "price": 1300, "image": "https://i.imgur.com/SCXqS6P.jpg" },
+    { "id": 9, "name": "Beef Burger", "price": 1000, "image": "https://i.imgur.com/6v9YjvY.jpg" },
+    { "id": 10, "name": "Pork Chops", "price": 1400, "image": "https://i.imgur.com/JG8VQnK.jpg" }
+  ],
+  "appetizers": [
+    { "id": 11, "name": "Garlic Bread", "price": 400, "image": "https://i.imgur.com/I8tYB2K.jpg" },
+    { "id": 12, "name": "Bruschetta", "price": 500, "image": "https://i.imgur.com/xhTUBwH.jpg" },
+    { "id": 13, "name": "Chicken Wings", "price": 700, "image": "https://i.imgur.com/ziLJ6yE.jpg" },
+    { "id": 14, "name": "Spring Rolls", "price": 450, "image": "https://i.imgur.com/M6KzphP.jpg" },
+    { "id": 15, "name": "Mozzarella Sticks", "price": 600, "image": "https://i.imgur.com/L6xOa6K.jpg" },
+    { "id": 16, "name": "Fries", "price": 300, "image": "https://i.imgur.com/hH3FDPm.jpg" },
+    { "id": 17, "name": "Soup of the Day", "price": 550, "image": "https://i.imgur.com/g5nbH2I.jpg" },
+    { "id": 18, "name": "Stuffed Mushrooms", "price": 650, "image": "https://i.imgur.com/JUJRaH2.jpg" },
+    { "id": 19, "name": "Onion Rings", "price": 350, "image": "https://i.imgur.com/S94z8W7.jpg" },
+    { "id": 20, "name": "Shrimp Cocktail", "price": 800, "image": "https://i.imgur.com/DuFxNf5.jpg" }
+  ],
+  "drinks": [
+    { "id": 21, "name": "Coca-Cola", "price": 200 },
+    { "id": 22, "name": "Sprite", "price": 200 },
+    { "id": 23, "name": "Fanta Orange", "price": 200 },
+    { "id": 24, "name": "Iced Tea", "price": 250 },
+    { "id": 25, "name": "Lemonade", "price": 250 },
+    { "id": 26, "name": "Coffee", "price": 300 },
+    { "id": 27, "name": "Milkshake", "price": 400 },
+    { "id": 28, "name": "Smoothie", "price": 400 },
+    { "id": 29, "name": "Bottled Water", "price": 150 },
+    { "id": 30, "name": "Energy Drink", "price": 350 }
+  ],
+  "snacks": [
+    { "id": 31, "name": "Chips", "price": 300 },
+    { "id": 32, "name": "Cookies", "price": 250 },
+    { "id": 33, "name": "Popcorn", "price": 200 },
+    { "id": 34, "name": "Donuts", "price": 350 },
+    { "id": 35, "name": "Sandwich", "price": 500 },
+    { "id": 36, "name": "Samosa", "price": 250 },
+    { "id": 37, "name": "Muffin", "price": 300 },
+    { "id": 38, "name": "Brownie", "price": 400 },
+    { "id": 39, "name": "Mandazi", "price": 150 },
+    { "id": 40, "name": "Pancake", "price": 350 }
+  ],
+  "cart": []
 }
