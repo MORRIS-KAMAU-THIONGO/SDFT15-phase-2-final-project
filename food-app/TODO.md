@@ -1,0 +1,21 @@
+# TODO List for Food-App React Project
+
+- [x] Create package.json
+- [x] Create db.json with sample data
+- [x] Create public/index.html
+- [x] Create public/manifest.json
+- [x] Create public/robots.txt
+- [x] Create public/favicon.ico (empty)
+- [x] Create public/logo192.png (empty)
+- [x] Create public/logo512.png (empty)
+- [x] Create src/index.js
+- [x] Create src/App.jsx
+- [x] Create src/App.css
+- [x] Create src/index.css
+- [x] Create src/components/Cart.jsx
+- [x] Create src/components/FoodCard.jsx
+- [x] Create src/components/FoodList.jsx
+- [x] Create src/components/Footer.jsx
+- [x] Create src/components/Navbar.jsx
+- [x] Create src/context/CartContext.jsx
+- [x] Create README.md

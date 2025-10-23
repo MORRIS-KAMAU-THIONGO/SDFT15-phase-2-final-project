@@ -1,0 +1,244 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Grilled Chicken",
+      "price": 12.99,
+      "category": "main"
+    },
+    {
+      "id": 2,
+      "name": "Beef Steak",
+      "price": 18.99,
+      "category": "main"
+    },
+    {
+      "id": 3,
+      "name": "Salmon Fillet",
+      "price": 15.99,
+      "category": "main"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir Fry",
+      "price": 10.99,
+      "category": "main"
+    },
+    {
+      "id": 5,
+      "name": "Pasta Carbonara",
+      "price": 13.99,
+      "category": "main"
+    },
+    {
+      "id": 6,
+      "name": "Lamb Chops",
+      "price": 19.99,
+      "category": "main"
+    },
+    {
+      "id": 7,
+      "name": "Shrimp Scampi",
+      "price": 16.99,
+      "category": "main"
+    },
+    {
+      "id": 8,
+      "name": "Chicken Curry",
+      "price": 14.99,
+      "category": "main"
+    },
+    {
+      "id": 9,
+      "name": "Beef Tacos",
+      "price": 11.99,
+      "category": "main"
+    },
+    {
+      "id": 10,
+      "name": "Vegetarian Pizza",
+      "price": 12.99,
+      "category": "main"
+    },
+    {
+      "id": 11,
+      "name": "Caesar Salad",
+      "price": 8.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 12,
+      "name": "Mozzarella Sticks",
+      "price": 7.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 13,
+      "name": "Buffalo Wings",
+      "price": 9.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 14,
+      "name": "Nachos",
+      "price": 10.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 15,
+      "name": "Bruschetta",
+      "price": 6.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 16,
+      "name": "Calamari",
+      "price": 11.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 17,
+      "name": "Spinach Dip",
+      "price": 8.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 18,
+      "name": "Chicken Tenders",
+      "price": 9.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 19,
+      "name": "Onion Rings",
+      "price": 7.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 20,
+      "name": "Garlic Bread",
+      "price": 5.99,
+      "category": "appetizer"
+    },
+    {
+      "id": 21,
+      "name": "Coca Cola",
+      "price": 2.99,
+      "category": "drink"
+    },
+    {
+      "id": 22,
+      "name": "Orange Juice",
+      "price": 3.99,
+      "category": "drink"
+    },
+    {
+      "id": 23,
+      "name": "Iced Tea",
+      "price": 2.49,
+      "category": "drink"
+    },
+    {
+      "id": 24,
+      "name": "Coffee",
+      "price": 2.99,
+      "category": "drink"
+    },
+    {
+      "id": 25,
+      "name": "Lemonade",
+      "price": 3.49,
+      "category": "drink"
+    },
+    {
+      "id": 26,
+      "name": "Beer",
+      "price": 4.99,
+      "category": "drink"
+    },
+    {
+      "id": 27,
+      "name": "Wine",
+      "price": 6.99,
+      "category": "drink"
+    },
+    {
+      "id": 28,
+      "name": "Smoothie",
+      "price": 4.99,
+      "category": "drink"
+    },
+    {
+      "id": 29,
+      "name": "Milkshake",
+      "price": 4.49,
+      "category": "drink"
+    },
+    {
+      "id": 30,
+      "name": "Water",
+      "price": 1.99,
+      "category": "drink"
+    },
+    {
+      "id": 31,
+      "name": "French Fries",
+      "price": 4.99,
+      "category": "snack"
+    },
+    {
+      "id": 32,
+      "name": "Popcorn",
+      "price": 3.99,
+      "category": "snack"
+    },
+    {
+      "id": 33,
+      "name": "Chips",
+      "price": 2.99,
+      "category": "snack"
+    },
+    {
+      "id": 34,
+      "name": "Cookies",
+      "price": 3.49,
+      "category": "snack"
+    },
+    {
+      "id": 35,
+      "name": "Candy Bar",
+      "price": 1.99,
+      "category": "snack"
+    },
+    {
+      "id": 36,
+      "name": "Trail Mix",
+      "price": 4.99,
+      "category": "snack"
+    },
+    {
+      "id": 37,
+      "name": "Nuts",
+      "price": 5.99,
+      "category": "snack"
+    },
+    {
+      "id": 38,
+      "name": "Granola Bar",
+      "price": 2.49,
+      "category": "snack"
+    },
+    {
+      "id": 39,
+      "name": "Pretzels",
+      "price": 3.99,
+      "category": "snack"
+    },
+    {
+      "id": 40,
+      "name": "Ice Cream",
+      "price": 4.49,
+      "category": "snack"
+    }
+  ]
+}
