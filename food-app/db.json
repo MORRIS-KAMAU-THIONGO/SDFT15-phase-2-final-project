@@ -1,51 +1,290 @@
 {
   "mainDishes": [
-    { "id": 1, "name": "Grilled Chicken", "price": 750, "image": "/images/chicken.jpg" },
-    { "id": 2, "name": "Beef Steak", "price": 950, "image": "/images/steak.jpg" },
-    { "id": 3, "name": "Pilau Rice", "price": 600, "image": "/images/pilau.jpg" },
-    { "id": 4, "name": "Fish Fillet", "price": 850, "image": "/images/fish.jpg" },
-    { "id": 5, "name": "Lamb Chops", "price": 1050, "image": "/images/lamb.jpg" },
-    { "id": 6, "name": "Fried Tilapia", "price": 800, "image": "/images/tilapia.jpg" },
-    { "id": 7, "name": "Ugali & Sukuma", "price": 450, "image": "/images/ugali.jpg" },
-    { "id": 8, "name": "Nyama Choma", "price": 900, "image": "/images/nyama.jpg" },
-    { "id": 9, "name": "Pasta Bolognese", "price": 700, "image": "/images/pasta.jpg" },
-    { "id": 10, "name": "Chicken Curry", "price": 950, "image": "/images/curry.jpg" }
+    {
+      "id": 1,
+      "name": "Grilled Chicken",
+      "description": "Juicy grilled chicken breast with herbs",
+      "price": 12.99,
+      "image": "https://via.placeholder.com/300x200?text=Grilled+Chicken"
+    },
+    {
+      "id": 2,
+      "name": "Beef Steak",
+      "description": "Tender beef steak cooked to perfection",
+      "price": 18.99,
+      "image": "https://via.placeholder.com/300x200?text=Beef+Steak"
+    },
+    {
+      "id": 3,
+      "name": "Salmon Fillet",
+      "description": "Fresh salmon fillet with lemon butter sauce",
+      "price": 16.99,
+      "image": "https://via.placeholder.com/300x200?text=Salmon+Fillet"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir Fry",
+      "description": "Mixed vegetables stir-fried with tofu",
+      "price": 10.99,
+      "image": "https://via.placeholder.com/300x200?text=Vegetable+Stir+Fry"
+    },
+    {
+      "id": 5,
+      "name": "Pasta Carbonara",
+      "description": "Creamy pasta with bacon and parmesan",
+      "price": 13.99,
+      "image": "https://via.placeholder.com/300x200?text=Pasta+Carbonara"
+    },
+    {
+      "id": 6,
+      "name": "Lamb Chops",
+      "description": "Grilled lamb chops with rosemary",
+      "price": 19.99,
+      "image": "https://via.placeholder.com/300x200?text=Lamb+Chops"
+    },
+    {
+      "id": 7,
+      "name": "Shrimp Scampi",
+      "description": "Shrimp in garlic butter sauce over linguine",
+      "price": 15.99,
+      "image": "https://via.placeholder.com/300x200?text=Shrimp+Scampi"
+    },
+    {
+      "id": 8,
+      "name": "Chicken Parmesan",
+      "description": "Breaded chicken with marinara and cheese",
+      "price": 14.99,
+      "image": "https://via.placeholder.com/300x200?text=Chicken+Parmesan"
+    },
+    {
+      "id": 9,
+      "name": "Beef Tacos",
+      "description": "Soft tacos with seasoned ground beef",
+      "price": 11.99,
+      "image": "https://via.placeholder.com/300x200?text=Beef+Tacos"
+    },
+    {
+      "id": 10,
+      "name": "Vegetarian Pizza",
+      "description": "Pizza with assorted vegetables and cheese",
+      "price": 12.99,
+      "image": "https://via.placeholder.com/300x200?text=Vegetarian+Pizza"
+    }
   ],
   "appetizers": [
-    { "id": 1, "name": "Spring Rolls", "price": 300, "image": "/images/spring.jpg" },
-    { "id": 2, "name": "Garlic Bread", "price": 250, "image": "/images/garlic.jpg" },
-    { "id": 3, "name": "Bruschetta", "price": 280, "image": "/images/bruschetta.jpg" },
-    { "id": 4, "name": "Mozzarella Sticks", "price": 350, "image": "/images/mozza.jpg" },
-    { "id": 5, "name": "Mini Samosas", "price": 200, "image": "/images/samosa.jpg" },
-    { "id": 6, "name": "Meatballs", "price": 400, "image": "/images/meatballs.jpg" },
-    { "id": 7, "name": "Potato Wedges", "price": 300, "image": "/images/wedges.jpg" },
-    { "id": 8, "name": "Onion Rings", "price": 250, "image": "/images/onion.jpg" },
-    { "id": 9, "name": "Stuffed Peppers", "price": 450, "image": "/images/peppers.jpg" },
-    { "id": 10, "name": "Mini Tacos", "price": 350, "image": "/images/taco.jpg" }
+    {
+      "id": 11,
+      "name": "Mozzarella Sticks",
+      "description": "Crispy fried mozzarella cheese sticks",
+      "price": 7.99,
+      "image": "https://via.placeholder.com/300x200?text=Mozzarella+Sticks"
+    },
+    {
+      "id": 12,
+      "name": "Chicken Wings",
+      "description": "Spicy buffalo chicken wings",
+      "price": 9.99,
+      "image": "https://via.placeholder.com/300x200?text=Chicken+Wings"
+    },
+    {
+      "id": 13,
+      "name": "Nachos",
+      "description": "Tortilla chips with cheese and jalapeños",
+      "price": 8.99,
+      "image": "https://via.placeholder.com/300x200?text=Nachos"
+    },
+    {
+      "id": 14,
+      "name": "Bruschetta",
+      "description": "Toasted bread with tomato and basil",
+      "price": 6.99,
+      "image": "https://via.placeholder.com/300x200?text=Bruschetta"
+    },
+    {
+      "id": 15,
+      "name": "Calamari",
+      "description": "Fried squid rings with marinara sauce",
+      "price": 10.99,
+      "image": "https://via.placeholder.com/300x200?text=Calamari"
+    },
+    {
+      "id": 16,
+      "name": "Spinach Artichoke Dip",
+      "description": "Creamy dip with spinach and artichokes",
+      "price": 8.99,
+      "image": "https://via.placeholder.com/300x200?text=Spinach+Artichoke+Dip"
+    },
+    {
+      "id": 17,
+      "name": "Onion Rings",
+      "description": "Crispy battered onion rings",
+      "price": 6.99,
+      "image": "https://via.placeholder.com/300x200?text=Onion+Rings"
+    },
+    {
+      "id": 18,
+      "name": "Deviled Eggs",
+      "description": "Classic deviled eggs with paprika",
+      "price": 5.99,
+      "image": "https://via.placeholder.com/300x200?text=Deviled+Eggs"
+    },
+    {
+      "id": 19,
+      "name": "Stuffed Mushrooms",
+      "description": "Mushrooms stuffed with cheese and herbs",
+      "price": 9.99,
+      "image": "https://via.placeholder.com/300x200?text=Stuffed+Mushrooms"
+    },
+    {
+      "id": 20,
+      "name": "Quesadillas",
+      "description": "Cheese quesadillas with salsa",
+      "price": 7.99,
+      "image": "https://via.placeholder.com/300x200?text=Quesadillas"
+    }
   ],
   "drinks": [
-    { "id": 1, "name": "Coca-Cola", "price": 150, "image": "/images/coke.jpg" },
-    { "id": 2, "name": "Sprite", "price": 150, "image": "/images/sprite.jpg" },
-    { "id": 3, "name": "Fanta Orange", "price": 150, "image": "/images/fanta.jpg" },
-    { "id": 4, "name": "Fresh Juice", "price": 200, "image": "/images/juice.jpg" },
-    { "id": 5, "name": "Milkshake", "price": 300, "image": "/images/milkshake.jpg" },
-    { "id": 6, "name": "Lemonade", "price": 200, "image": "/images/lemonade.jpg" },
-    { "id": 7, "name": "Water", "price": 100, "image": "/images/water.jpg" },
-    { "id": 8, "name": "Energy Drink", "price": 250, "image": "/images/energy.jpg" },
-    { "id": 9, "name": "Iced Coffee", "price": 300, "image": "/images/coffee.jpg" },
-    { "id": 10, "name": "Smoothie", "price": 350, "image": "/images/smoothie.jpg" }
+    {
+      "id": 21,
+      "name": "Coca-Cola",
+      "description": "Classic cola soft drink",
+      "price": 2.99,
+      "image": "https://via.placeholder.com/300x200?text=Coca-Cola"
+    },
+    {
+      "id": 22,
+      "name": "Orange Juice",
+      "description": "Fresh squeezed orange juice",
+      "price": 3.99,
+      "image": "https://via.placeholder.com/300x200?text=Orange+Juice"
+    },
+    {
+      "id": 23,
+      "name": "Iced Tea",
+      "description": "Refreshing unsweetened iced tea",
+      "price": 2.49,
+      "image": "https://via.placeholder.com/300x200?text=Iced+Tea"
+    },
+    {
+      "id": 24,
+      "name": "Coffee",
+      "description": "Hot brewed coffee",
+      "price": 2.99,
+      "image": "https://via.placeholder.com/300x200?text=Coffee"
+    },
+    {
+      "id": 25,
+      "name": "Lemonade",
+      "description": "Homemade lemonade",
+      "price": 3.49,
+      "image": "https://via.placeholder.com/300x200?text=Lemonade"
+    },
+    {
+      "id": 26,
+      "name": "Beer",
+      "description": "Cold beer on tap",
+      "price": 4.99,
+      "image": "https://via.placeholder.com/300x200?text=Beer"
+    },
+    {
+      "id": 27,
+      "name": "Wine",
+      "description": "Red wine by the glass",
+      "price": 6.99,
+      "image": "https://via.placeholder.com/300x200?text=Wine"
+    },
+    {
+      "id": 28,
+      "name": "Milkshake",
+      "description": "Vanilla milkshake",
+      "price": 4.99,
+      "image": "https://via.placeholder.com/300x200?text=Milkshake"
+    },
+    {
+      "id": 29,
+      "name": "Smoothie",
+      "description": "Mixed berry smoothie",
+      "price": 4.49,
+      "image": "https://via.placeholder.com/300x200?text=Smoothie"
+    },
+    {
+      "id": 30,
+      "name": "Water",
+      "description": "Bottled spring water",
+      "price": 1.99,
+      "image": "https://via.placeholder.com/300x200?text=Water"
+    }
   ],
   "snacks": [
-    { "id": 1, "name": "Chips", "price": 200, "image": "/images/chips.jpg" },
-    { "id": 2, "name": "Hot Dog", "price": 350, "image": "/images/hotdog.jpg" },
-    { "id": 3, "name": "Popcorn", "price": 150, "image": "/images/popcorn.jpg" },
-    { "id": 4, "name": "Mandazi", "price": 100, "image": "/images/mandazi.jpg" },
-    { "id": 5, "name": "Sausage", "price": 200, "image": "/images/sausage.jpg" },
-    { "id": 6, "name": "Corn Dog", "price": 250, "image": "/images/corndog.jpg" },
-    { "id": 7, "name": "Doughnut", "price": 200, "image": "/images/doughnut.jpg" },
-    { "id": 8, "name": "Cupcake", "price": 250, "image": "/images/cupcake.jpg" },
-    { "id": 9, "name": "Nachos", "price": 300, "image": "/images/nachos.jpg" },
-    { "id": 10, "name": "Biscuit Pack", "price": 180, "image": "/images/biscuit.jpg" }
-  ],
-  "cart": []
+    {
+      "id": 31,
+      "name": "French Fries",
+      "description": "Crispy golden french fries",
+      "price": 4.99,
+      "image": "https://via.placeholder.com/300x200?text=French+Fries"
+    },
+    {
+      "id": 32,
+      "name": "Onion Rings",
+      "description": "Crispy battered onion rings",
+      "price": 5.99,
+      "image": "https://via.placeholder.com/300x200?text=Onion+Rings"
+    },
+    {
+      "id": 33,
+      "name": "Chicken Nuggets",
+      "description": "Breaded chicken nuggets",
+      "price": 6.99,
+      "image": "https://via.placeholder.com/300x200?text=Chicken+Nuggets"
+    },
+    {
+      "id": 34,
+      "name": "Popcorn",
+      "description": "Buttered popcorn",
+      "price": 3.99,
+      "image": "https://via.placeholder.com/300x200?text=Popcorn"
+    },
+    {
+      "id": 35,
+      "name": "Pretzels",
+      "description": "Soft pretzels with mustard",
+      "price": 4.49,
+      "image": "https://via.placeholder.com/300x200?text=Pretzels"
+    },
+    {
+      "id": 36,
+      "name": "Nachos",
+      "description": "Tortilla chips with cheese",
+      "price": 5.99,
+      "image": "https://via.placeholder.com/300x200?text=Nachos"
+    },
+    {
+      "id": 37,
+      "name": "Mozzarella Sticks",
+      "description": "Fried mozzarella cheese sticks",
+      "price": 6.99,
+      "image": "https://via.placeholder.com/300x200?text=Mozzarella+Sticks"
+    },
+    {
+      "id": 38,
+      "name": "Breadsticks",
+      "description": "Garlic breadsticks",
+      "price": 4.99,
+      "image": "https://via.placeholder.com/300x200?text=Breadsticks"
+    },
+    {
+      "id": 39,
+      "name": "Chips and Salsa",
+      "description": "Tortilla chips with salsa",
+      "price": 4.49,
+      "image": "https://via.placeholder.com/300x200?text=Chips+and+Salsa"
+    },
+    {
+      "id": 40,
+      "name": "Cheese Platter",
+      "description": "Assorted cheeses with crackers",
+      "price": 8.99,
+      "image": "https://via.placeholder.com/300x200?text=Cheese+Platter"
+    }
+  ]
 }
