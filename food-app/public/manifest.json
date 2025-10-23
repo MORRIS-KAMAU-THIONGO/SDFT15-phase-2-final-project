@@ -1,6 +1,6 @@
 {
   "short_name": "Food App",
-  "name": "React Food Ordering App",
+  "name": "Food Order & Delivery App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ff6b35",
+  "theme_color": "#000000",
   "background_color": "#ffffff"
 }

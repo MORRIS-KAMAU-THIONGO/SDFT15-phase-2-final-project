@@ -1,0 +1,23 @@
+# TODO List for React Food Ordering App
+
+- [x] Create package.json with React dependencies
+- [x] Create public/index.html
+- [x] Create public/manifest.json
+- [x] Create public/robots.txt
+- [x] Create public/favicon.ico (placeholder)
+- [x] Create public/logo192.png (placeholder)
+- [x] Create public/logo512.png (placeholder)
+- [x] Create db.json with completed data (add description, category, images)
+- [x] Create src/index.js
+- [x] Create src/App.jsx
+- [x] Create src/context/CartContext.jsx
+- [x] Create src/components/Navbar.jsx
+- [x] Create src/components/FoodList.jsx
+- [x] Create src/components/FoodCard.jsx
+- [x] Create src/components/Cart.jsx
+- [x] Create src/components/Footer.jsx
+- [x] Create src/App.css
+- [x] Create src/index.css
+- [x] Create README.md
+- [x] Run npm install
+- [x] Test app with npm start and json-server

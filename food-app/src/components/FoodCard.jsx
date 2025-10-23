@@ -1,32 +1,34 @@
 import React from 'react';
-import { useCart } from '../CartContext';
+import { useCart } from '../context/CartContext';
 
-// FoodCard component to display individual food item
+// FoodCard component to display individual food item details and add to cart functionality
 const FoodCard = ({ food }) => {
-  // Get addToCart function from context
+  // Access the addToCart function from the cart context
   const { addToCart } = useCart();
 
-  // Handle adding item to cart
+  // Function to handle adding the food item to the cart
   const handleAddToCart = () => {
     addToCart(food);
   };
 
   return (
     <div className="food-card">
-      
+      {/* Food image */}
       <img src={food.image} alt={food.name} className="food-image" />
 
-     
-      <div className="food-details">
-        <h3 className="food-name">{food.name}</h3>
-        <p className="food-description">{food.description}</p>
-        <p className="food-price">${food.price.toFixed(2)}</p>
+      {/* Food name */}
+      <h3 className="food-name">{food.name}</h3>
 
-        
-        <button className="add-to-cart-btn" onClick={handleAddToCart}>
-          Add to Cart
-        </button>
-      </div>
+      {/* Food description */}
+      <p className="food-description">{food.description}</p>
+
+      {/* Food price */}
+      <p className="food-price">{food.price}</p>
+
+      {/* Add to Cart button */}
+      <button className="add-to-cart-btn" onClick={handleAddToCart}>
+        Add to Cart
+      </button>
     </div>
   );
 };
