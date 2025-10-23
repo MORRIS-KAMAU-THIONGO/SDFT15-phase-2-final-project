@@ -45,7 +45,7 @@ const FoodList = ({ category }) => {
 
   return (
     <div className="food-list">
-      {/* Display food items using FoodCard component */}
+      
       {foods.map((food) => (
         <FoodCard key={food.id} food={food} />
       ))}

@@ -12,10 +12,10 @@ const Navbar = ({ activeCategory, setActiveCategory }) => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        {/* App title */}
+        
         <h1 className="navbar-title">Food App</h1>
 
-        {/* Navigation tabs */}
+        
         <div className="navbar-tabs">
           {categories.map((category) => (
             <button
@@ -28,7 +28,7 @@ const Navbar = ({ activeCategory, setActiveCategory }) => {
           ))}
         </div>
 
-        {/* Cart icon with item count */}
+        
         <div className="cart-icon">
           <span className="cart-count">{getTotalItems()}</span>
           🛒
