@@ -12,7 +12,7 @@
     { "id": 10, "name": "Pork Chops", "price": "Ksh 1400", "image": "https://i.imgur.com/JG8VQnK.jpg", "description": "Grilled pork chops with seasoning.", "category": "mainDishes" }
   ],
   "appetizers": [
-    { "id": 11, "name": "Garlic Bread", "price": "Ksh 400", "image": "https://i.imgur.com/I8tYB2K.jpg", "description": "Toasted bread with garlic butter.", "category": "appetizers" },
+    { "id": 11, "name": "Garlic Bread", "price": "Ksh 400", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7jtTNMR4O_lkj0XjXtrlFVTQ7S-oUrqLi9w&s", "description": "Toasted bread with garlic butter.", "category": "appetizers" },
     { "id": 12, "name": "Bruschetta", "price": "Ksh 500", "image": "https://i.imgur.com/xhTUBwH.jpg", "description": "Tomato and basil on toasted bread.", "category": "appetizers" },
     { "id": 13, "name": "Chicken Wings", "price": "Ksh 700", "image": "https://i.imgur.com/ziLJ6yE.jpg", "description": "Spicy chicken wings with sauce.", "category": "appetizers" },
     { "id": 14, "name": "Spring Rolls", "price": "Ksh 450", "image": "https://i.imgur.com/M6KzphP.jpg", "description": "Crispy vegetable spring rolls.", "category": "appetizers" },
